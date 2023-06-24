@@ -15,7 +15,18 @@ const StyledNavbar = styled.div`
     display: flex;
     flex-direction: column;
   }
+  .linkTo{
+    color:white;
+    text-decoration:none;
+  }
 
+  .linkTo:hover{
+    color:grey;
+  }
+
+  .linkTo:active{
+    color:red;
+  }
   /*Medium Screen*/
 @media(min-width:768px){
     nav{

@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 const StyledCard = styled.div`
-/* Card.module.css */
-
 .card {
     width: 18rem;
     border: 1px solid #ccc;

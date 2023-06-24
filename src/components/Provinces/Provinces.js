@@ -6,7 +6,6 @@ import { FaMapMarker } from 'react-icons/fa';
 
 const Provinces = () => {
     const tableData= useSelector((store)=> store.covid.covid);
-    //const {tableData} = props;
     return(
         <StyledProvinces>
         <div>

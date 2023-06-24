@@ -10,7 +10,6 @@ const StyledFooter = styled.div`
     flex-direction: column;
   }
 
-
   a{
     color: white;
     text-decoration:none;
@@ -35,6 +34,7 @@ const StyledFooter = styled.div`
     font-family: 'Pacifico', cursive;
     letter-spacing: 2px;
   }
+  
   /*Medium SCreen*/
   @media (min-width:768px){
       footer{

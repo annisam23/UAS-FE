@@ -10,7 +10,7 @@ const Footer = () => {
                 <footer>
                     <div>
                     <h2>Covid ID</h2>
-                    <p>2023 All reserved by <a href="https://github.com/annisam23">Annisa M</a></p>
+                    <p>2023 All reserved by <a href="https://github.com/annisam23">Anseyow</a></p>
                     </div>
                     <div>
                         <List/>

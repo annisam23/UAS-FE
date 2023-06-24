@@ -17,7 +17,7 @@ function Covid (props) {
     return (
         <StyledCovid>
             <div>
-            <h3>{covid.status}</h3><br></br>
+            <h3>{covid.status}</h3>
             <p style={{ color: totalColor }}>{covid.total}</p>
         </div>
         </StyledCovid>

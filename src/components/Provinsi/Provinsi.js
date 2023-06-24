@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Provinsi(props) {  
     const {prov, index} = props
     return (

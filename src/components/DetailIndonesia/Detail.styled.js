@@ -14,6 +14,7 @@ const StyledDetail = styled.div`
         font-size: 2.44rem;
         color:black;
         font-weight: 800;
+        margin-bottom:10px;
     }
 
     p{

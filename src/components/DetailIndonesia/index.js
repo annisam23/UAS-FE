@@ -16,7 +16,7 @@ function DetailIndonesia (props) {
     return (
         <StyledDetail>
             <div>
-            <h3>{covid.status}</h3><br></br>
+            <h3>{covid.status}</h3>
             <p  style={{ color: totalColor }} >{covid.total}</p>
         </div>
         </StyledDetail>

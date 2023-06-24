@@ -14,6 +14,7 @@ const StyledCovid = styled.div`
         font-size: 2.44rem;
         color:black;
         font-weight: 800;
+        margin-bottom:10px;
     }
 
     p{
@@ -31,9 +32,6 @@ const StyledCovid = styled.div`
             width: 300px;
             height: 230px;
     }
-
-
-
 `;
 
 export default StyledCovid;

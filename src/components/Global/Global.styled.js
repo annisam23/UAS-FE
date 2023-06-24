@@ -16,15 +16,6 @@ const StyledGlobal = styled.div`
         color: #118AB2;
     }
     
-    .covid_status{
-        font-size: 2.44rem;
-        color:black;
-    }
-    
-    .covid_jumlah{
-        color: aqua;
-    }
-    
     .covid {
         box-shadow: 0 3px 20px rgba(0, 0, 0,0.2);
         border-radius: 12px;

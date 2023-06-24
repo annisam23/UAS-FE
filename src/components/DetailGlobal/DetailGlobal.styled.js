@@ -10,7 +10,6 @@ const StyledDetailGlobal = styled.div`
     height: auto;
 
     h3{
-        margin-top: 10px;
         font-size: 1.44rem;
         color:black;
         font-weight: 800;
@@ -21,6 +20,8 @@ const StyledDetailGlobal = styled.div`
         color:black;
         font-weight: 500;
         text-align:left;
+        letter-spacing:1.5px;
+        margin-bottom:2px;
     }
 
     @media(min-width:768px){

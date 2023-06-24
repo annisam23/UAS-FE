@@ -12,7 +12,7 @@ const Hero = () => {
                     <h2>Covid ID</h2>
                     <h4>Monitoring Perkembangan Covid 19</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                    <Button variant="" size="lg">Vaccine</Button>
+                    <Button>Vaccine</Button>
                 </div>
                 <div >
                     <img

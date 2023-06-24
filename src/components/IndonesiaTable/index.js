@@ -6,12 +6,13 @@ import DetailIndonesia from '../DetailIndonesia';
 import { FaFlag ,FaMapMarkerAlt } from 'react-icons/fa';
 
 const IndonesiaTable = () =>{
+    /**
+     * untuk menampilkan Regions indonesia dan ditampilkan dalam tabels
+     */
     const[regions,setRegions] = useState([]);
-
     useEffect(()=>{
         getDataRegions();
     },[])
-
     async function getDataRegions(){
         const response = await axios(ENDPOINTS.INDONESIA);
         const regionsData = response.data.regions;
@@ -19,7 +20,7 @@ const IndonesiaTable = () =>{
     }
 
     /**
-     * untuk menampilkan status dan totalnya
+     * untuk menampilkan status dan totalnya dan ditampilkan di card
      */
     const[regionsDetail,setRegionsDetail] = useState([]);
     useEffect(()=>{

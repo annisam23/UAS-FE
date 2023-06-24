@@ -1,4 +1,3 @@
-import React from 'react';
 import StyledContact from './Contact.styled';
 import { FaEnvelope } from 'react-icons/fa';
 

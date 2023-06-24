@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 const StyledContact = styled.div`
-/* ContactMe.css */
-
 .contact-me {
     text-align: center;
     margin-bottom: 40px;

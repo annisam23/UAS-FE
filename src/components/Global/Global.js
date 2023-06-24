@@ -20,6 +20,8 @@ function Global(){
             const global = response.data.global;
             setglobal(global);
         }
+
+        
     /**
      * untuk menampilkan detail beberapa Region dari global
      */

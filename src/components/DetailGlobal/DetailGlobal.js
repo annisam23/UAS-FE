@@ -12,14 +12,14 @@ function DetailGlobal (props) {
     return (
         <StyledCovid>
             <div>
-            <h3>{covid.name}</h3><br></br>
-                <p style={{ color: "salmon"}}>Confirmed: {covid.numbers.confirmed} 
+            <h3>{covid.name}</h3>
+                <p style={{ color: "salmon"}}>Confirmed<br></br> {covid.numbers.confirmed} 
                     <FaCheck/>
                 </p>
-                <p style={{ color: '#118AB2'}}>Recovered: {covid.numbers.recovered}
+                <p style={{ color: '#118AB2'}}>Recovered<br></br> {covid.numbers.recovered}
                     <FaArrowUp />
                 </p>
-                <p style={{ color: "red"}}>Death: {covid.numbers.death}
+                <p style={{ color: "red"}}>Death<br></br> {covid.numbers.death}
                     <FaSkull />
                 </p>
         </div>
